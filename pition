@@ -1,0 +1,7 @@
+def lala(username):
+ for i in username:
+  if i in '\'$")(':
+   username = username.replace(i, '')
+return username
+
+
