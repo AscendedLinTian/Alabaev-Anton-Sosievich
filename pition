@@ -5,3 +5,12 @@ def lala(username):
 return username
 
 
+def a_plug(somestr):
+    some_words = "'\")$(%[]"
+
+    for word in some_words:
+        if word in somestr:
+             somestr = somestr.replace(word, "")
+
+    return somestr
+
