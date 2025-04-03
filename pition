@@ -5,6 +5,8 @@ def lala(username):
 return username
 
 
+
+
 def a_plug(somestr):
     some_words = "'\")$(%[]"
 
@@ -14,3 +16,7 @@ def a_plug(somestr):
 
     return somestr
 
+
+
+docker compose up -d
+docker compose up --build -d
